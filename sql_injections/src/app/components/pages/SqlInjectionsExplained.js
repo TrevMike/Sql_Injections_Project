@@ -1,7 +1,7 @@
 function SqlInjectionsExplained() {
   return (
-    <div className="text-cyan-100 text-sm">
-      <h3 className="text-green-400 text-2xl py-2">
+    <div className="text-cyan-100 text-sm lg:text-2xl ">
+      <h3 className="text-green-400 text-2xl lg:text-7xl  py-2">
         Unmasking SQL Injections: Understanding Techniques and Risks
       </h3>
       <p className="py-2 tracking-widest">

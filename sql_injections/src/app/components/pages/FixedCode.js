@@ -2,8 +2,8 @@ import Image from "next/image";
 import goodCode from "../../../../public/GoodCodeExample.PNG";
 function FixedCode() {
   return (
-    <div className="text-cyan-100 text-sm">
-      <h3 className="text-green-400 text-2xl py-2">
+    <div className="text-cyan-100 text-sm lg:text-2xl ">
+      <h3 className="text-green-400 text-2xl lg:text-7xl  py-2">
         Building Secure Foundations: The Power of Validation, Sanitization, and
         Parameterization
       </h3>

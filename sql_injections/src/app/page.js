@@ -37,20 +37,26 @@ export default function Home() {
 
       <div className="w-full flex justify-end text-red-500 py-2">
         {page < 1 ? (
-          <button className=" w-1/4 px-1" onClick={() => nextPageHandler()}>
+          <button
+            className=" w-1/4 px-1 lg:text-xl "
+            onClick={() => nextPageHandler()}
+          >
             Next
           </button>
         ) : page > 8 ? (
           <div>
-            <button className="px-1" onClick={() => previousPageHandler()}>
+            <button
+              className="px-1 lg:text-xl"
+              onClick={() => previousPageHandler()}
+            >
               Previous
             </button>
-            <span className="px-1 underline underline-offset-2">
+            <span className="px-1 lg:text-xl underline underline-offset-2">
               Completed!
             </span>
           </div>
         ) : (
-          <div className="">
+          <div className="lg:text-xl">
             <button className="px-1 " onClick={() => previousPageHandler()}>
               Previous
             </button>

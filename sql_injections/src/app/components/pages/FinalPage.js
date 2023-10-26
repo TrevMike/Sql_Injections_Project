@@ -1,7 +1,7 @@
 function FinalPage() {
   return (
-    <div className="text-cyan-100 text-sm">
-      <h3 className="text-green-400 text-2xl py-2">The End...</h3>
+    <div className="text-cyan-100 text-sm lg:text-2xl ">
+      <h3 className="text-green-400 text-2xl lg:text-7xl  py-2">The End...</h3>
       <p className="py-2 tracking-widest">
         Thank you all for joining us on this journey into the intricate world of
         SQL injection. Your engagement and interest in this critical topic are

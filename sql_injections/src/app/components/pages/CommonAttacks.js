@@ -4,8 +4,8 @@ import badCode from "../../../../public/BadCodeExample.PNG";
 function CommonAttacks() {
   const [input, setInput] = useState("");
   return (
-    <div className="text-cyan-100 text-sm">
-      <h3 className="text-green-400 text-2xl py-2">
+    <div className="text-cyan-100 text-sm lg:text-2xl ">
+      <h3 className="text-green-400 text-2xl lg:text-7xl  py-2">
         SQL Manipulation: From Innocuous Command to Data Breach Gateway
       </h3>
       <p className="py-2 tracking-widest">
@@ -16,7 +16,7 @@ function CommonAttacks() {
       </p>
       <Image
         src={badCode}
-        alt="Picture of the author"
+        alt="bad code example"
         // width={500} automatically provided
         // height={500} automatically provided
         // blurDataURL="data:..." automatically provided
@@ -26,7 +26,7 @@ function CommonAttacks() {
         <h4 className="text-green-400 py-2">
           Example of SQL command query in NodeJS Backend Server
         </h4>
-        <p className="text-xs">
+        <p className="text-xs lg:text-xl ">
           `SELECT * FROM dbo.users WHERE name = '{"${data}"}'`
         </p>
       </div>
@@ -42,7 +42,7 @@ function CommonAttacks() {
       />
       <div>
         <h4 className="text-green-400 py-2">The Command being changed</h4>
-        <p className="text-xs pb-4">
+        <p className="text-xs lg:text-xl  pb-4">
           SELECT * FROM dbo.users WHERE name = '{input} '
         </p>
       </div>

@@ -1,7 +1,7 @@
 function FunFacts() {
   return (
-    <div className="text-cyan-100 text-sm">
-      <h3 className="text-green-400 text-2xl py-2">
+    <div className="text-cyan-100 text-sm lg:text-2xl ">
+      <h3 className="text-green-400 text-2xl lg:text-7xl  py-2">
         The World of SQL Injections: Beyond the Basics
       </h3>
       <p className="py-2 tracking-widest">
@@ -11,7 +11,9 @@ function FunFacts() {
         showcased their use. Video games like Hacknet use them as a core
         gameplay element, adding to their allure in popular culture.
       </p>
-      <h3 className="text-green-400 text-xl py-2">Famous Attacks:</h3>
+      <h3 className="text-green-400 text-xl lg:text-4xl  py-2">
+        Famous Attacks:
+      </h3>
       <ul className="tracking-widest">
         <li className="py-2">
           <span className="text-red-500">
@@ -35,7 +37,9 @@ function FunFacts() {
           vulnerability of even well-established tech companies.
         </li>
       </ul>
-      <h3 className="text-green-400 text-xl py-2">The Big Players:</h3>
+      <h3 className="text-green-400 text-xl lg:text-4xl  py-2">
+        The Big Players:
+      </h3>
       <ul className="tracking-widest">
         <li className="py-2">
           <span className="text-red-500">Yahoo: </span>One of the internet
@@ -56,7 +60,7 @@ function FunFacts() {
           data and had a profound impact on the company's reputation.
         </li>
       </ul>
-      <h3 className="text-green-400 text-xl py-2">Conclusion:</h3>
+      <h3 className="text-green-400 text-xl lg:text-4xl  py-2">Conclusion:</h3>
       <p className="py-2 tracking-widest">
         These examples will help illustrate the gravity of SQL injection attacks
         and their impact on organizations. They serve as powerful cautionary
