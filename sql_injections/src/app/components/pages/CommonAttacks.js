@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+import Image from "next/image";
+import badCode from "../../../../public/BadCodeExample.PNG";
 function CommonAttacks() {
   const [input, setInput] = useState("");
   return (
@@ -13,7 +14,14 @@ function CommonAttacks() {
         transformation turns a command that should retrieve a single user into a
         gateway for extracting data from all users.
       </p>
-
+      <Image
+        src={badCode}
+        alt="Picture of the author"
+        // width={500} automatically provided
+        // height={500} automatically provided
+        // blurDataURL="data:..." automatically provided
+        // placeholder="blur" // Optional blur-up while loading
+      />
       <div className="">
         <h4 className="text-green-400 py-2">
           Example of SQL command query in NodeJS Backend Server

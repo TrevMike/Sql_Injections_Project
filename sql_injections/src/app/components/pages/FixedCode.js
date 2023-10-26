@@ -1,3 +1,5 @@
+import Image from "next/image";
+import goodCode from "../../../../public/GoodCodeExample.PNG";
 function FixedCode() {
   return (
     <div className="text-cyan-100 text-sm">
@@ -12,6 +14,14 @@ function FixedCode() {
         applications can ultimately lead to substantial cost savings for your
         company or organization.
       </p>
+      <Image
+        src={goodCode}
+        alt="good code example"
+        // width={500} automatically provided
+        // height={500} automatically provided
+        // blurDataURL="data:..." automatically provided
+        // placeholder="blur" // Optional blur-up while loading
+      />
       <p className="py-2 tracking-widest">
         it's essential to recognize that this example serves as a fundamental
         template for writing secure code. While no system is entirely impervious
